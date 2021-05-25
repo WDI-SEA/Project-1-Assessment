@@ -33,3 +33,9 @@ div {
     background-color: rgb(148, 148, 148);
     color: white;
 }
+
+#sum:hover, #difference:hover {
+    background-color: white;
+    color:rgb(148, 148, 148);
+    border: 1px solid rgb(148, 148, 148);
+}
