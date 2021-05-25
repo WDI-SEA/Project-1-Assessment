@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+}
+#outputValue {
+    font-size: 40px;
+   
+}
+#buttonPlus {
+    background-color: gray;
+    text-align: center;
+    width: 30px;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid gray;
+    font-size: 25px;
+}
+#inputNumber {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 8px;
+    font-size: 25px;
+}
+#buttonMinus {
+    background-color: gray;
+    text-align: center;
+    width: 30px;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid gray;
+    font-size: 25px;
+}
