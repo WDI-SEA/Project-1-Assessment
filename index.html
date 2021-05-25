@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 1 Assessment</title>
+    <style>
+      * {
+        /* border: 1px solid black; */
+        font-family: Helvetica, Arial, sans-serif;
+      }
+
+      body {
+        margin-left: 25%;
+        margin-right: auto;
+        margin-top: 8%;
+      }
+
+      .container {
+        width: 550px;
+        right: 50%;
+      }
+      .header {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+      }
+      .main {
+        display: grid;
+        grid-template-columns: 25% 1fr 25%;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+      }
+      .counter {
+        text-align: center;
+        font-size: 55px;
+        font-weight: bold;
+        padding: 50px 0px 60px 0px;
+      }
+      .boxMinus,
+      .boxPlus {
+        background: rgb(152, 152, 152);
+        border-radius: 10px;
+        height: 110px;
+        width: 135px;
+        color: white;
+        font-size: 65px;
+        text-align: center;
+        margin: 0;
+        padding-top: 20px;
+      }
+
+      .boxCenter {
+        display: grid;
+        justify-content: center;
+        border: 5px solid rgb(152, 152, 152);
+        margin: 0px 25px 0px 25px;
+        border-radius: 20px;
+        font-size: 50px;
+        padding-top: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="counter">0</div>
+      </div>
+      <div class="main">
+        <div class="boxPlus">+</div>
+        <div class="boxCenter">1</div>
+        <div class="boxMinus">-</div>
+      </div>
+    </div>
+  </body>
+</html>
