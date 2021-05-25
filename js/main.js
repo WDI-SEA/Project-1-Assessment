@@ -5,11 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
     let addButton = document.getElementById('addButton')
     let subtractButton = document.getElementById('subtractButton')
     let currentCount = 0
-    
 
     addButton.addEventListener('click', add)
     subtractButton.addEventListener('click', subtract)
-
 
     function add () {
         currentCount +=  +increment.value
@@ -34,9 +32,4 @@ document.addEventListener('DOMContentLoaded', () => {
             currentCountBox.style.color = 'black'
         }
     }
-
-
-
-
-
 })
