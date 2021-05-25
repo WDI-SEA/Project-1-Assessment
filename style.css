@@ -1,7 +1,6 @@
 #addInputMinus {
     display: flex;
     justify-content: center;
-    padding-top: 7%;
 }
 
 #outPutNumber {
@@ -36,7 +35,7 @@
 #userInput {
     width: 75px;
     padding: 10px;
-    margin: 15px;
+    margin: 4px;
     display: flex;
     justify-content: center;
     border-width: medium;
