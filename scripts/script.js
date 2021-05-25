@@ -5,18 +5,21 @@ const posButton = document.getElementById("positive-button")
 const numberInput = document.getElementById("number-input")
 const numberOutput = document.getElementById("output-box")
 
-// console.log(numberOutput)
-// console.log(numberInput)
-// console.log(parseInt(numberOutput.innerText))
-
-
 posButton.addEventListener("click", () => {
-    console.log("It goes up!")
     numberOutput.innerText = parseInt(numberOutput.innerText) + parseInt(numberInput.value)
+    colorChange()
 })
 
 negButton.addEventListener("click", () => {
-    console.log("It goes down!")
     numberOutput.innerText = parseInt(numberOutput.innerText) - parseInt(numberInput.value)
+    colorChange()
 })
+
+function colorChange() {
+    if (parseInt(numberOutput.innerText) < 0) {
+        numberOutput.style.color = "red"
+    } else {
+        numberOutput.style.color = "black"
+    }
+}
 
