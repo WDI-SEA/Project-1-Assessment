@@ -37,8 +37,6 @@ plusButton.addEventListener('click', (e) => {
   })
 
 
-
-
 minusButton.addEventListener('click', (e) => { 
     e.preventDefault()
     console.log(parseInt(base))
@@ -48,8 +46,6 @@ minusButton.addEventListener('click', (e) => {
     document.getElementById("number").innerHTML = subtract;
     base = subtract
 })
-
-
 
 
 
