@@ -1,15 +1,46 @@
-/* body [
-
-] */
+body {
+  font-size: 42px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
 }
+.section {
+  display: flex;
+  justify-content: center;
+}
+
 input {
   text-align: center;
+  font-size: 42px;
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: 6px solid lightgray;
+  width: 85px;
+  margin: 0 10px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 button {
   padding: 0 10px;
+  background: grey;
+  color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid grey;
+  font-size: 42px;
+  padding: 10px 25px;
+}
+button:hover {
+  background: #ffffff;
+  color: grey;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
 }
