@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    currentCount = document.getElementById(currentCount)
-    increment = document.getElementById(increment)
-    addButton = document.getElementById(addButton)
-    subtractButton = document.getElementById(subtractButton)
+    let currentCount = document.getElementById('currentCount')
+    let increment = document.getElementById('increment')
+    let addButton = document.getElementById('addButton')
+    let subtractButton = document.getElementById('subtractButton')
 
     // document.addEventListener('click', add())
 
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // }
 
-    // console.log(subtractButton)
+    console.log(currentCount)
 
 
 
