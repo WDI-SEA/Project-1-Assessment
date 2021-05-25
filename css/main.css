@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    border: 2px solid darkgray;
+    font-size:32px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.argument{
+    text-align: center;
+    width: 3em;
+}
+.math {
+    background-color: darkgray;
+    width: 1.4em;
+    color: white;
+}
+.math:hover {
+    background-color: white;
+    color: darkgray
+}
+.counter {
+    margin: 30px;
+    font-weight: bold;
+}
+
+
+/* These rules remove the spin buttons from the number field. Needed to center the input below the counter. */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
