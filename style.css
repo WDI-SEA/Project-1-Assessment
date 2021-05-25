@@ -6,15 +6,8 @@
 h1{
     text-align: center;
 }
-#plus{
-    height: 25px;
-    border-radius: 5px;
-    border: darkgray;
-    background-color: gray;
-    color: white;
-    width: 25px
-}
-#minus{
+
+.buttons{
     height: 25px;
     border-radius: 5px;
     border: darkgray;
@@ -24,11 +17,14 @@ h1{
     
 }
 #input{
-    border: lightgray;
+    
     width: 50px;
     margin: 4px;
     text-align: center;
     border-radius: 5px;
-    /* border: lightgray; */
+    border: lightgray;
     height: 25px;
+    border:1px solid gray;">
+
+
 }
