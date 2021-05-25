@@ -1,27 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 div {
-    text-align: center;
+    
     font-family: sans-serif;
     font-weight: bold;
     font-size: 100px;
     margin: 30px;
 }
 
+
+
 #userInput {
     width:  130px;
     height: 75px;
     font-family: sans-serif;
     font-size: 75px;
-    text-align: center;
-    border: solid #A9A9A9;
+   
+    border: solid #A9A9A9 5px;
     border-radius: 10px;
-    padding-left: 20px;
+    padding-left: 50px;
+    
 }
 
 button {
-    width:  75px;
-    height: 75px;
+    width:  87px;
+    height: 87px;
     background-color: #A9A9A9;
-    border-color: #A9A9A9;
+    border: solid #A9A9A9 5px;
     border-style: solid;
     border-radius: 10px;
     color: white;
@@ -29,9 +39,14 @@ button {
     text-align: center;
     line-height: 5px;
     transition: all 200ms ease-in-out;
+    position: relative;
+    bottom: 9px;
+    
+   
 }
 
 button:hover {
     color: #A9A9A9;
     background-color: white;
 }
+
