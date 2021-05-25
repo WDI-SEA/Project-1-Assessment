@@ -19,3 +19,4 @@ negButton.addEventListener("click", () => {
     console.log("It goes down!")
     numberOutput.innerText = parseInt(numberOutput.innerText) - parseInt(numberInput.value)
 })
+
