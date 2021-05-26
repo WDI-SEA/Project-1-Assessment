@@ -1,0 +1,50 @@
+/* Align Counter */
+h1 {
+    text-align: center;
+    font-size: 90px;
+}
+
+/* Style Counter */
+
+#counter {
+    font-family: "Roboto", sans-serif;
+    margin-top: 200px;
+    margin-bottom: -240px; 
+}
+
+/* Style Section */
+section {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style Buttons */
+button {
+    height: 103px;
+    width: 103px;
+    border-radius: 12px;
+    font-size: 80px;
+    background-color: #9f9f9f;
+    color: white;
+    border: 3px solid #9f9f9f;
+}
+
+/* Style Input */
+input {
+    height: 95px;
+    width: 175px;
+    border-radius: 8px;
+    margin: 0 30px 0 30px;
+    font-size: 72px;
+    text-align: center;
+    border: 6px solid #a0a0a0;
+}
+
+/* Hide Arrows on Number Input */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  appearance: none; 
+  margin: 0;
+}  
