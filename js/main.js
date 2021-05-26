@@ -5,11 +5,22 @@ const boxPlus = document.querySelector('.boxPlus')
 const boxMinus = document.querySelector('.boxMinus')
 const input = document.querySelector('input')
 
-boxPlus.addEventListener('click', () => {
-  input.value = parseInt(input.value) + 1
-})
-boxMinus.addEventListener('click', () => {
-  input.value = parseInt(input.value) - 1
+let cumuValue = 0
+
+console.log(cumuValue)
+
+boxPlus.addEventListener('click', (e) => {
+  //   input.value = parseInt(input.value) + 1
+  cumuValue += parseInt(input.value)
+  finalNum()
 })
 
-document.querySelector('.counter').innerHTML = input.value
+boxMinus.addEventListener('click', (e) => {
+  //   input.value = parseInt(input.value) - 1
+  cumuValue -= parseInt(input.value)
+  finalNum()
+})
+
+function finalNum() {
+  document.querySelector('.counter').innerHTML = cumuValue
+}
