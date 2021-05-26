@@ -5,6 +5,7 @@ let total = document.querySelector("#total")
 let form = document.querySelector("#form")
 let add = document.querySelector("#add")
 let subtract = document.querySelector("#subtract")
+let input = document.querySelector("#inputValue")
 
 //Variables to be used
 let totalNumber = 0
@@ -14,19 +15,16 @@ let totalNumber = 0
 
 add.addEventListener('click', (e) => {
     e.preventDefault()
-    let inputValue = parseInt(document.querySelector("#inputValue").value)
-    let sum
-    sum = totalNumber += inputValue
-    total.innerHTML = sum
-    console.log(sum)
-})
+    let inputValue = parseInt(input.value)
+    totalNumber += inputValue
+    total.innerHTML = totalNumber
+}) 
 
 subtract.addEventListener('click', (e) => {
     e.preventDefault()
-    let inputValue = parseInt(document.querySelector("#inputValue").value)
-    let diff
-    diff = totalNumber -= inputValue
-    total.innerHTML = diff
+    let inputValue = parseInt(input.value)
+    totalNumber -= inputValue
+    total.innerHTML = totalNumber
 })
 
 })
