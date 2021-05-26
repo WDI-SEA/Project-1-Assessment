@@ -38,11 +38,13 @@ input {
     border: 5px solid rgb(190, 190, 190);
 }
 
-::placeholder {
+/* style input placeholder if input type is text */
+/* ::placeholder {
     font-family: sans-serif;
     color: black;
     margin-left: -12px;
-}
+} */
+
 
 #plus, #minus {
     border-radius: 10px;
