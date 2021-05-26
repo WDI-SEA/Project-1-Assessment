@@ -10,17 +10,17 @@ let userInput = document.getElementById('userInput')
 let total = document.getElementById('total')
 
 
-// Make + button add to div number
-total = 0
+// Make + button add to p number
+// total = 0
 
 addBtn.addEventListener('click', () => {
     console.log("God Save The Queen!👑")
-   
-   console.log(total)
 
      function addition() {
-        let x = userInput.value
-        let z = total.value
+        let x = parseInt(userInput.value)
+        console.log(x)
+        let z = parseInt(total.innerText)
+        console.log(z)
         let t = x + z
         total.innerText = t
         console.log(total)
@@ -28,10 +28,21 @@ addBtn.addEventListener('click', () => {
     addition()
 })
 
+//Make - button subtract from p number
 
+subBtn.addEventListener('click', () => {
 
-//Make - button subtract from div number
-
+    function subtraction() {
+        let x = parseInt(userInput.value)
+        console.log(x)
+        let z = parseInt(total.innerText)
+        console.log(z)
+        let t = z - x
+        total.innerText = t
+        console.log(total)
+    }
+    subtraction()
+})
 
 
 
