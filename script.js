@@ -1,9 +1,7 @@
 let plus = document.getElementById('plus')
 let minus = document.getElementById('minus')
 let deltaDom = document.getElementById('deltaNum')
-let button = document.querySelector('button')
-let amountDisplay = document.getElementById('numberBox').innerText
-let userInput = deltaDom.value
+let amountDisplay = document.getElementById('numberBox')
 let reduceArr
 
 
@@ -17,10 +15,8 @@ document.addEventListener('click', (e) => {
 
 function displayAmount () {
    reduceArr = finalAmount.reduce(reducer)
-   console.log(reduceArr)
+   amountDisplay.innerText = reduceArr
 }
-
-
 
 
 function clickHandler (e) {
@@ -30,23 +26,9 @@ function clickHandler (e) {
         console.log(finalAmount)
     }
     if (e.target === minus) {
-        console.log('minus')
+       let minusValue =  parseInt(deltaDom.value) * -1
+       finalAmount.push(minusValue)
+       displayAmount()
     }
 }
 
-
-// let amount = document.querySelector('numberBox').innerText
-// let deltaNum = 1
-//     deltaNum = userInput
-
-// function adjustHandler (input) {
-//     input = UserInput
-//     add(input)
-//     subtract(input)
-// }
-
-
-// function subtract (deltaNum) {
-//     amount - deltaNum
-//     return amount
-// }
