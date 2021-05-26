@@ -7,17 +7,23 @@ const input = document.querySelector('input')
 
 let cumuValue = 0
 
-console.log(cumuValue)
-
-boxPlus.addEventListener('click', (e) => {
-  //   input.value = parseInt(input.value) + 1
+boxPlus.addEventListener('click', () => {
   cumuValue += parseInt(input.value)
+
+  cumuValue < 0
+    ? (counter.style.color = 'red')
+    : (counter.style.color = 'black')
+
   finalNum()
 })
 
-boxMinus.addEventListener('click', (e) => {
-  //   input.value = parseInt(input.value) - 1
+boxMinus.addEventListener('click', () => {
   cumuValue -= parseInt(input.value)
+
+  cumuValue < 0
+    ? (counter.style.color = 'red')
+    : (counter.style.color = 'black')
+
   finalNum()
 })
 
