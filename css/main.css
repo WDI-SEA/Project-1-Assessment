@@ -1,5 +1,4 @@
 * {
-  /* border: 1px solid black; */
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -13,6 +12,7 @@ body {
   width: 550px;
   right: 50%;
 }
+
 .header {
   display: grid;
   grid-template-columns: 1fr;
@@ -27,14 +27,15 @@ body {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
+
 .counter {
   text-align: center;
   font-size: 60px;
   font-weight: bold;
   padding: 50px 0px 60px 0px;
   font-family: Arial, Helvetica, sans-serif;
-  /* color: red; */
 }
+
 .boxMinus,
 .boxPlus {
   background: rgb(152, 152, 152);
@@ -64,6 +65,7 @@ body {
   font-size: 50px;
   /* padding-top: 25px; */
 }
+
 input {
   justify-content: center;
   font-size: 55px;
