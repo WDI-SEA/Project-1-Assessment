@@ -2,8 +2,14 @@
 
 const counter = document.querySelector('.counter')
 const boxPlus = document.querySelector('.boxPlus')
-const boxCenter = document.querySelector('.boxCenter')
 const boxMinus = document.querySelector('.boxMinus')
+const input = document.querySelector('input')
 
-boxPlus.addEventListener('click', increment)
-boxMinus.addEventListener('click', decrement)
+boxPlus.addEventListener('click', () => {
+  input.value = parseInt(input.value) + 1
+})
+boxMinus.addEventListener('click', () => {
+  input.value = parseInt(input.value) - 1
+})
+
+document.querySelector('.counter').innerHTML = input.value
