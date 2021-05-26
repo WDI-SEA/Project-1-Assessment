@@ -1,27 +1,31 @@
 console.log("we're connected now!")
-const input = document.querySelector('#inputNumber')
-const buttonPlus = document.querySelector('#buttonPlus')
+const inputNumber = document.querySelector('#inputNumber')
+// const buttonPlus = document.querySelector('#buttonPlus')
 const buttonMinus = document.querySelector('#buttonMinus')
 const outputValue = document.querySelector('#outputValue')
+let finalValue = 0
 
 //prevent default +
 function incrementValue(e) {
     e.preventDefault();
-    var buttonPlus = document.getElementById("buttonPlus");
-    buttonPlus.value = (inputNumber.value) + (inputNumber.value);
-    var outputValue = (inputNumber.value) + (inputNumber.value);
-   
-  
-    
+      finalValue += parseInt(inputNumber.value)
+  outputNum()
+    console.log(finalValue)
   }
+  document.getElementById("buttonPlus").addEventListener("click", incrementValue)
+  function outputNum() {
+outputValue.innerHTML = finalValue
+  }
+
   
   // prevent default -
-  function decrementValue(e) {
+function decrementValue(e) {
     e.preventDefault();
-    var buttonMinus = document.getElementById("buttonMinus");
-    buttonMinus.value = (inputNumber.value) - (inputNumber.value);
-    var outputValue = (inputNumber.value) - (inputNumber.value);
-    
-
+        finalValue -= parseInt(inputNumber.value)
+    outputNum()
+        console.log(finalValue)
   }   
-  
+  document.getElementById("buttonMinus").addEventListener("click", decrementValue)
+  function outputNum() {
+outputValue.innerHTML = finalValue
+  }
