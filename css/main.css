@@ -1,0 +1,62 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#form {
+    flex-direction: row;
+    display: flex;
+}
+
+#minusButton {
+    font-size: 25px;
+    border: 10px;
+    border-radius: 8px;
+    padding: 20px;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    background-color: #adadad;
+}
+
+#minusButton:hover {
+    background-color: white;
+    color: #adadad
+}
+
+#numberVariable {
+border: 4px #adadad solid;
+border-radius: 8px;
+width: 90px;
+height: 50px;
+font-size: 45px;
+text-align: center;
+margin: 10px;
+}
+
+#plusButton{ 
+    font-size: 25px;
+    border: 10px;
+    border-radius: 8px;
+    padding: 20px;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    background-color: #adadad;
+}
+
+#plusButton:hover {
+    background-color: white;
+    color: #adadad
+}
+
+#result {
+font-size: 70px;
+font-weight: bold;
+}
