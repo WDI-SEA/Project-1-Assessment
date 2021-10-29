@@ -1,12 +1,13 @@
 body {
-    background-color: whitesmoke;
+    background-color: white;
     display: grid;
     justify-content: center;
-
+    font-family: Helvetica, sans-serif;;
 }
+
 section {
-    margin-top: 100px;
-	display: grid;  /* defaults to row layout */
+    margin-top: 50px;
+	display: grid;  
     grid-template-columns: 50px 50px 50px;
     grid-template-rows: 50px 50px;
 	align-items: center;
@@ -16,6 +17,8 @@ section {
 #countDisplay {
     grid-column: 2;
     grid-row: 1;
+    font-weight: bold;
+    font-size: xx-large;
 }
 
 #plus {
@@ -26,7 +29,12 @@ section {
 #inputBox {
     grid-column: 2;
     grid-row: 2;
-    width: 20px;
+    width: 45px;
+    border-radius: 5px;
+    border: solid lightgray 2px;
+    padding: 3px;
+    font-size: large;
+    text-align: center;
 }
 
 #minus {
@@ -34,20 +42,17 @@ section {
     grid-row: 2;
 }
 
-
-
-/* #countDisplay {
-    margin: 50px auto 50px auto;
-} */
-
-/* Hovering Over the "+" or "-" Button
- When the mouse is over the "+" or "-" button, the button should reverse its background and text colors */
 button {
-    background-color: whitesmoke;
-    color: gray;
+    background-color: lightgray;
+    color: white;
+    border-radius: 5px;
+    height: 28px;
+    width: 28px;
+    font-size: large;
+    border: solid lightgray 1px;
 }
 button:hover {
-    background-color: gray;
-    color: whitesmoke;
+    background-color: white;
+    color: lightgray;
     
 }
