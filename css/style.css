@@ -1,0 +1,46 @@
+/* for checking */
+/* body {
+    background-color: aquamarine;
+} */
+
+body {
+    text-align: center;
+    font-family: 'Zen Antique', serif;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+}
+
+input {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid blue;
+    font-weight: bold;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+#number {
+    font-size: 100px;
+    margin-top: 40px;
+}
+
+#minus-button, #plus-button {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 30px;
+}
+
+#minus-button {
+    padding-left: 27px;
+    padding-right: 27px;
+}
+#inputNumberDiv {
+    margin-top: 40px;
+}
