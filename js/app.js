@@ -11,6 +11,12 @@ function downIncrementBy (e) {
     let newDisplay = subtractForm -= inputBox.value
     displayText.innerText = newDisplay
     console.log("click")
+
+    if (newDisplay < 0){
+        displayText.style.color = "red";
+    } else if (newDisplay >= 0){
+        displayText.style.color = "black";
+    }
 }
 
 function upIncrementBy (e) {
@@ -19,5 +25,11 @@ function upIncrementBy (e) {
     let newDisplay2 = addForm += parseInt(inputBox.value)
     displayText.innerText = newDisplay2
     console.log("click")
+
+    if (newDisplay < 0){
+        displayText.style.color = 'red';
+    } else if (newDisplay >= 0){
+        displayText.style.color = "black";
+    }
 }
 
