@@ -10,10 +10,16 @@
 <body>
     <h1>Adding Calculator</h1>
     <p>Answer:</p>
-    <div class="new-sum"></div>
-    <button class= "buttons" id="minus-num">-</button>
-    <input id="text-input" type="text" value= "add number here">
-    <button class="buttons" id="plus-num">+</button>
+    <div class="new-sum" id="original">0</div>
+    <div class = "container">
+        <form id = "form1">
+            <input type= "submit" class="buttons" id="minus-num" value = "-">
+        </form>
+        <input type="text" id="num-input">
+        <form id = "form2">    
+            <input type= "submit" class="buttons" id="plus-num" value = "+">
+        </form>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
