@@ -1,4 +1,46 @@
 body {
+    
+    display: flex;
+    min-height: 100vh;
+    width: 100;
+    justify-items: center;
+}
 
-    background-color: aliceblue;
+section {
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    text-align: center ;
+}
+input {
+    font-size: 55px;
+    text-align: center;
+    margin: 10px 10px;
+    border-radius: 10%;
+}
+
+.buttons {
+    min-width: 100px;
+    min-height: 100px;
+    background-color: lightgray;
+    color: white;
+    border: none;
+}
+
+.buttons:hover {
+    background-color: white;
+    color: lightgray;
+    border: 4px lightgray solid;
+}
+
+#inputField {
+    max-width: 150px;
+    min-height: 100px;
+    border: 4px lightgray solid;
+    border-radius: 5%;
+    
+}
+
+h1 {
+    font-size: 80px;
 }
