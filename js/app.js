@@ -15,8 +15,10 @@ function downIncrementBy (e) {
 
     if (newDisplay > -1){
         displayText.style.color = "black";
+        console.log("should be black")
     } else {
         displayText.style.color = "red";
+        console.log("should be red")
     }
 
 
@@ -29,10 +31,12 @@ function upIncrementBy (e) {
     displayText.innerText = newDisplay2
     console.log("click")
 
-    if (newDisplay > -1){
+    if (newDisplay2 > -1){
         displayText.style.color = "black";
+        console.log("should be black")
     } else {
         displayText.style.color = "red";
+        console.log("should be red")
     }
 }
 
