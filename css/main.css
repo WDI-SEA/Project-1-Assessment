@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(to right, lightyellow, black);
+    text-align: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#plus {
+    background-color: black;
+    color: yellow;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#plus:hover {
+    background-color: yellow;
+    color: black;
+}
+
+#minus {
+    background-color: black;
+    color: yellow;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#minus:hover {
+    background-color: yellow;
+    color: black;
+
