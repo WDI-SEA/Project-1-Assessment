@@ -1,0 +1,58 @@
+body {
+    font-family: helvetica;
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#display {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#countDisplay {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+}
+
+.control {
+    background: gray;
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    color: whitesmoke;
+}
+
+.control:hover {
+    background: whitesmoke;
+    color: gray;
+    border: 2px solid gray;
+    width: 56px;
+    height: 56px;
+}
+
+input {
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 10px;
+    border: 2px solid gray;
+    width: 100px;
+    font-size: 30px;
+}
+
+#warning {
+    text-align: center;
+    margin-top: 5px;
+}
