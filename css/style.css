@@ -8,3 +8,23 @@ form {
     justify-content: center;
     align-items: center;
 }
+
+#addButton {
+    background-color: green;
+    color: white;
+}
+
+#addButton:hover {
+    background-color: white;
+    color: green;
+}
+
+#minusButton {
+    background-color: red;
+    color: white;
+}
+
+#minusButton:hover {
+    background-color: white;
+    color: red;
+}

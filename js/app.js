@@ -13,13 +13,32 @@ const counterDisplay = document.getElementById('currentCountDisplay')
 
 //Test elements
 // console.log(addButton, minusButton, inputField, counterDisplay)
+//On document load, current count is 0 and input field is 1
+document.addEventListener('DOMContentLoaded', () => {
+    counterDisplay.innerText = 0
+    inputField.value = 1
 
 //addButton functionality
 addButton.addEventListener('click', () => {
     counterDisplay.innerText = Number(counterDisplay.innerText) + Number(inputField.value)
+    console.log(counterDisplay.innerText)
+    if(Number(counterDisplay.innerText < 0)) {
+        counterDisplay.style.color = 'red'
+    } else {
+        counterDisplay.style.color = 'black'
+    }
 })
-
 //minusButton Functionality
 minusButton.addEventListener('click', () => {
     counterDisplay.innerText = counterDisplay.innerText - inputField.value
+    console.log(counterDisplay.innerText)
+    if(Number(counterDisplay.innerText < 0)) {
+        counterDisplay.style.color = 'red'
+    } else {
+        counterDisplay.style.color = 'black'
+    }
+})
+
+
+
 })
