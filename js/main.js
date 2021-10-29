@@ -1,18 +1,18 @@
 // declare vars & grab relevant items from html
-const answerDisplay = document.getElementById("display")
+const answerDisplay = parseInt(document.getElementById("display").innerText)
 const minusButton = document.getElementById("minus")
 const plusButton = document.getElementById("plus")
-const inputBox = document.getElementById("input")
+const inputBox = parseInt(document.getElementById("input").innerText)
 
-answerDisplay.innerText = 0
+display.innerText = 0
 // write function that subtracts input from display number and displays result
 const subtractNumber = () => {
-    answerDisplay.innerText = (answerDisplay.innerText)-(inputBox.innerText)
+    display.innerText = (answerDisplay.innerText)-(inputBox.innerText)
 }
 
 // write function that adds input to display number and displays result
 const addNumber = () => {
-    answerDisplay.innerText = (answerDisplay.innerText)+(inputBox.innerText)
+    display.innerText = (answerDisplay.innerText)+(inputBox.innerText)
 }
 
 // create click event listener for minus
