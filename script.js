@@ -7,11 +7,7 @@ let total = 0;
 add.addEventListener('click', (e) => {
   e.preventDefault();
   total = parseFloat(total) + parseFloat(input.value);
-  if (input.value + total > 0) {
-    displayValue.textContent = ` ${total}`;
-  } else {
-    displayValue.textContent = ` ${total}`;
-  }
+  displayValue.textContent = ` ${total}`;
   input.value = '';
 });
 
