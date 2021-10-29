@@ -2,6 +2,7 @@
 const minus = document.getElementById("minus")
 const plus = document.getElementById("plus")
 const display = document.getElementById("display")
+let number = document.getElementById("number")
 
 let count = 0
 updateDisplay()
