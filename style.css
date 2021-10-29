@@ -1,0 +1,43 @@
+h1 {
+    display: block;
+    text-align: center;
+    font-size: 150px;
+}
+
+#plus, #number, #minus {
+    display: inline-flex;
+    text-align: center;
+    font-size: 75px;
+    border-radius: 10px;
+}
+
+#plus, #minus {
+    border: 0px solid;
+    background-color: coral;
+}
+
+#plus:hover, #minus:hover{
+    background-color: rgb(0, 145, 255);
+    
+}
+
+#minus {
+    margin-left: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#plus {
+    margin-right: 20px;
+    padding-left: 15.5px;
+    padding-right: 15.5px;
+}
+
+#number {
+    width: 150px;
+    border-style: groove;  
+}
+
+div {
+    text-align: center;
+}
