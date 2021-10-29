@@ -14,6 +14,9 @@ plus.addEventListener('click', () => {
     if(number < 0 ){
         document.getElementById('number').style.color = 'red'
     }
+    if(number > 0){
+        document.getElementById('number').style.color = 'black'
+    }
 })
 
 minus.addEventListener('click', () => {
@@ -21,5 +24,8 @@ minus.addEventListener('click', () => {
     document.getElementById('number').innerText = number
     if(number < 0 ){
         document.getElementById('number').style.color = 'red'
+    }
+    if(number > 0){
+        document.getElementById('number').style.color = 'black'
     }
 })
