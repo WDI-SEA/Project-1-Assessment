@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#large-indicator {
+    font-size: 3rem;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#big-number {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#timer-container {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#minus-sign {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    background-color: #A9A9A9;
+    border-color: #A9A9A9;
+    border-style: solid;
+    font-size: 2rem;
+    margin: 20px;
+
+}
+#plus-sign {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    background-color: #A9A9A9;
+    border-color: #A9A9A9;
+    border-style: solid;
+    font-size: 2rem;
+    margin: 20px;
+}
+
+#plus-sign:hover {
+    background-color: white;
+    color: #A9A9A9;
+}
+
+#minus-sign:hover {
+    background-color: white;
+    color: #A9A9A9;
+}
+
+inputbox-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inputbox {
+    height: 40px;
+    width: 40%;
+    text-align: center;
+    font-family: Arial;
+    font-size: 2rem;
+    border-color: #A9A9A9;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+#input-box-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
