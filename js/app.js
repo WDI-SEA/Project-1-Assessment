@@ -1,22 +1,23 @@
  // addition function
  const addition = () => {
-    const inputValue = parseInt(userInput.value)
-    const currentValue = parseInt(count.innerText)
-    const result = currentValue + inputValue
+    let inputValue = parseInt(userInput.value)
+    let currentValue = parseInt(count.innerText)
+    let result = currentValue + inputValue
     count.innerText = result
+      // if result is less than 0, font = red
     if (result < 0) {
         count.style.color = "red"
+      // if result is greater than 0, font = black
     } else {
         count.style.color = "black"
     }
 }
 //subtraction function
 const subtraction = () => {
-    const inputValue = parseInt(userInput.value)
-    const currentValue = parseInt(count.innerText)
-    const result = currentValue - inputValue
+    let inputValue = parseInt(userInput.value)
+    let currentValue = parseInt(count.innerText)
+    let result = currentValue - inputValue
     count.innerText = result
-    // if result is less than 0, font = red
     if (result < 0) {
         count.style.color = "red"
     } else {
@@ -26,11 +27,11 @@ const subtraction = () => {
 
 //once content loads
 document.addEventListener("DOMContentLoaded", () => {
-    // plus div
+    // + div event listener
     plus.addEventListener("click", () => {
         addition()
     })
-    //minus div 
+    // - div event listener
     minus.addEventListener("click", () => {
         subtraction()
     })
