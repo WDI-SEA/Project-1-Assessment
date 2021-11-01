@@ -5,24 +5,25 @@ const minusButton = document.getElementById('minus-button')
 const inputNumber = document.getElementById('number-goes-here')
 const plusButton = document.getElementById('plus-button')
 
-
+// plus buttons
 function pressPlus () {
-    if (inputNumber.value == 1 && displayedNumber.innerText == 0) {
-        displayedNumber.innerText = 1
-    } else {
-        displayedNumber.innerText++
-    }
+    let displaySum = Number(inputNumber.value) + Number(displayedNumber.innerText)
+    displayedNumber.innerText = displaySum
 }
 
+// minus button
 function pressMinus () {
-    if (inputNumber.value == 1 && displayedNumber.innerText == 0) {
-        displayedNumber.innerText = 1
+    let displaySum = Number(displayedNumber.innerText) - Number(inputNumber.value)
+    displayedNumber.innerText = displaySum
+    
+    if (displaySum < 0) {
+        displayedNumber.style.color = 'red'
     } else {
-        inputNumber.value--
-        displayedNumber.innerText--
+        displayedNumber.style.color = 'black'
     }
+
 }
 
-    // if the plus button is pressed add 1
-    plusButton.addEventListener('click', pressPlus)
-    minusButton.addEventListener('click', pressMinus)
+// event listeners
+plusButton.addEventListener('click', pressPlus)
+minusButton.addEventListener('click', pressMinus)
