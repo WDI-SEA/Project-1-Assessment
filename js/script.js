@@ -15,13 +15,6 @@ function pressPlus () {
 function pressMinus () {
     let displaySum = Number(displayedNumber.innerText) - Number(inputNumber.value)
     displayedNumber.innerText = displaySum
-    
-    if (displaySum < 0) {
-        displayedNumber.style.color = 'red'
-    } else {
-        displayedNumber.style.color = 'black'
-    }
-
 }
 
 // event listeners
