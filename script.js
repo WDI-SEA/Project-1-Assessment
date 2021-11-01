@@ -1,41 +1,30 @@
-const number = document.getElementById("counter")
-const minus = document.getElementById("subtract")
-const inputNum = document.getElementById("input").value
-const adding = document.getElementById("adder")
-let initalValue = 0
+const result = document.getElementById("result")
+const subtract = document.getElementById("subtract")
+const inputNum = document.getElementById("inputr")
+const add = document.getElementById("add")
+result.innerText = 0
+let resultNum = 0
+
+
+console.log(typeof inputNum)
 
 
 
-const showNumber = () => {
-    number.innerText = 0
-}
-showNumber()
-
-
-
-const increase = (e) => {
-    console.log(e.target)
-    e.target.adding
-    number.innerText++
-
-}
-const decrease = (e) => {
-    console.log(e.target.minus)
-    e.target.minus
-    number.innerText--
-}
-
-function myFunction() {
-    document.getElementById("myText").value = "Johnny Bravo";
+const increase = () => {
+    let toNum = parseInt(inputNum.value, 10)
+    resultNum = resultNum + toNum
+    result.innerText = resultNum
 }
 
 
 
+const decrease = () => {
+    let toNum = parseInt(inputNum.value, 10)
+    resultNum = resultNum - toNum
+    result.innerText = resultNum
+    }
 
 
-
-
-
-
-adder.addEventListener("click", increase)
+add.addEventListener("click", increase)
 subtract.addEventListener("click", decrease)
+// subtract.addEventListener("click", decrease)
