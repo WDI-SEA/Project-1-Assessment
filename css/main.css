@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+input {
+    display: inline-block;
+    font-size: 40px;
+    height: 60px;
+    width: 120px;
+    text-align: center;
+    border: solid 3px rgb(169,169,169);
+    border-radius: 5px;
+    padding: 0;
+    margin: 0 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.operation {
+    display: inline-block;
+    font-size: 50px;
+    color: white;
+    border-radius: 5px;
+    height: 65px;
+    width: 60px;
+    background-color: rgb(169,169,169);
+    border: solid 1px rgb(169,169,169);
+}
