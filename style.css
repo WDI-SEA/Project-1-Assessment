@@ -1,0 +1,40 @@
+body {
+  position: relative;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#output {
+  position: absolute;
+  height: 10vh;
+  width: 17vh;
+  border: 2px red solid;
+  top: 200px;
+}
+
+#container {
+  position: absolute;
+  top: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#num-input {
+  height: 6vh;
+  width: 10vh;
+}
+
+#add-button {
+  font-size: 3vh;
+  height: 6vh;
+  width: 6vh;
+}
+
+#minus-button {
+  font-size: 3vh;
+  height: 6vh;
+  width: 6vh;
+}
