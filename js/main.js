@@ -1,9 +1,34 @@
-const addUp = document.querySelector('.up');
-const subtractDown = document.querySelector('down')
 const addUp = document.querySelector(".up");
-const subtractDown = document.querySelector(".down");
+const minusDown = document.querySelector(".down");
 
-let addOne = document.getElementByID('.counterdisplay');
-myElem.onclick = function() {
-	(ccounter.addOne) ++
+function add(){
+	addUp.addEventListener("click", addUp)
+	const num1 = 1;
+	let num2 = parseInt(".display").value;
+
+	const sum = num1 + num2;
+
+	console.log(sum);
 }
+
+add();
+
+function subtract (){
+	minusDown.addEventListener("click", minusDown)
+	const num1 = 1;
+	let num2 = parseInt(".display").value;
+
+	const sumsubtract = num2 - num1;
+
+	console.log(subtract);
+}
+
+subtract();
+
+
+
+
+
+
+
+
