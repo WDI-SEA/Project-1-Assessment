@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: arial;
+}
+button {
+    background-color: rgba(169,169,169,1);
+    font-size: 2rem;
+    color: white;
+    border: 2px solid rgba(169,169,169,1);
+    border-radius: 10px;
+    width: 4.2rem;
+    height: 4.2rem;
+}
+button:hover {
+    background-color: white;
+    color: rgba(169,169,169,1);
+}
+.console {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#input {
+    font-size: 2.5rem;
+    text-align: center;
+    border: 4px solid rgba(169,169,169,1);
+    border-radius: 10px;
+    width: 2.5em;
+    padding: .5rem 1rem;
+    margin: 1rem 1rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
