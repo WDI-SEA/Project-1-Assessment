@@ -33,7 +33,3 @@ const negativeCheck = (num) => {
         changingNumber.style.color = "black"
     }
 }
-
-const flipColor = (element) =>{
-    element.style.color
-}
