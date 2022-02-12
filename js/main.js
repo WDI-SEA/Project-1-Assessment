@@ -30,6 +30,9 @@ let display = () => {
   
   if(num < 0){
     displayNum.style.color = "red"
+  }else{
+    displayNum.style.color="black"
+    
   }
   displayNum.innerText = num;
 }

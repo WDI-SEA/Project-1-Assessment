@@ -1,0 +1,77 @@
+/* my most dreaded part */
+
+:root {
+  --grey: rgb(169 169 169);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.top-display{
+  display: flex;  
+  padding: 9%;
+  font-size: 4.5em;
+  font-weight: 600;
+}
+
+.bottom-part {
+  display: flex;
+  /* justify-content: center; */
+}
+
+.button {
+  display: flex;
+  background-color: var(--grey);
+  width: 2em;
+  height: 2em;;
+  border-radius: 12px;
+  border: .01em solid var(--grey);
+  color: white;
+  /* font-size: ; */
+  font-size: 3em;
+  font-weight: lighter;
+
+}
+
+input {
+  border: .1em solid var(--grey);
+  /* border-width: .5em; */
+  border-radius: 10px;
+  width: 2.5em;
+  font-size: 2.7em;
+  text-align: center;
+  padding: 0em .4em;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin:0;
+}
+
+input[type=number]{
+  -moz-appearance: textfield;
+}
+.right-side {
+  margin-left: .5em;
+}
+
+.left-side  {
+  margin-right: .5em;
+}
+
+button:hover {
+  background-color: white;
+  color: var(--grey);
+
+}
