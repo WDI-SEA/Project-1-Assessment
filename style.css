@@ -37,6 +37,13 @@ button {
   color: white;
 }
 
+button:hover {
+  color: #a9a9a9;
+  background-color: white;
+  border: 2px solid #a9a9a9;
+
+}
+
 input {
   height: 35px;
   width: 60px;
