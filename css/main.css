@@ -1,0 +1,42 @@
+* {
+    text-align: center;
+}
+
+.input-style {
+    width: 60px;
+}
+
+.plus-button {
+    background-color: darkgray;
+    border: 3px;
+    border-radius: 3px;
+    color: white;
+    height: 20px;
+}
+.minus-button {
+    background-color: darkgray;
+    border: 1px;
+    border-radius: 3px;
+    color: white;
+    height: 21px;
+    width:20px; 
+}
+
+.plus-button:hover {
+    background-color: white;
+    color: darkgray;
+    border-color: darkgray;
+    border: 2px;
+    border: 1px solid darkgray;
+}
+.minus-button:hover {
+    background-color: white;
+    color: darkgray;
+    /* border-color: darkgray; */
+    border: 1px solid darkgray;
+    /* border-radius: 5px; */
+}
+
+.red {
+    color: red;
+}
