@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+input {
+    font-size: 40px;
+    padding: 20px;
+    width: 5rem;
+    text-align: center;
+    border-radius: 5px;
+    border: solid 5px darkgray;
+    margin: 0 10px 0 10px;
+}
+
+#result {
+    /* border: solid 1px black; */
+    text-align: center;
+    font-size: 90px;
+}
+
+
+button {
+    text-align: center;
+    background-color: darkgray;
+    color: white;
+    padding: 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+button:hover {
+    background-color: lightgray;
+    color: white;
+    border: none;
+}
+
