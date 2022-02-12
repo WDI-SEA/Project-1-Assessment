@@ -28,7 +28,11 @@ let checkChange = () => {
 
 
 let display = () => {
-  displayNum.innerText = num
+  
+  if(num < 0){
+    displayNum.style.color = "red"
+  }
+  displayNum.innerText = num;
 }
 minusButton.addEventListener('click', minus => {  
   checkChange();
