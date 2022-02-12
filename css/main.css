@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.square {
+  background-color: rgb(165, 162, 162);
+  height: 70px;
+  width: 85px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  font-size: 50px;
+}
+
+.rectangle {
+  background-color: rgb(255, 255, 255);
+  height: 60px;
+  width: 125px;
+  text-align: center;
+  border: solid rgb(155, 155, 155) 5px;
+  border-radius: 10px;
+  font-size: 50px;
+  margin: 0 20px;
+
+}
+
+.output {
+  font-size: 80px;
+}
+
+.square:hover {
+  background-color: white;
+  color: rgb(165, 162, 162);
+}
