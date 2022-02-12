@@ -1,0 +1,24 @@
+body {
+
+}
+
+h1 {
+    
+}
+
+.counter {
+   display:inline-block
+}
+
+.up {
+     height: 50px;
+     width: 50px; 
+     filter: invert(100%) !important;
+}
+
+.counterdisplay{
+   
+}
+.down {
+   
+} 
