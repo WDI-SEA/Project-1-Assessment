@@ -1,0 +1,29 @@
+.container {
+    display: block;
+    /* background-color: gray; */
+    padding: 2%;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 20%;
+}
+
+#numberDisplay {
+    font-size: 100px;
+}
+
+input {
+    margin: 2%;
+    padding: 2%;
+    width: 5rem;
+    font-size: 30px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+#plus, #minus {
+    background-color: gray;
+    color: cornsilk;
+    width: 3rem;
+}
+
