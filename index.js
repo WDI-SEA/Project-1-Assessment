@@ -16,7 +16,7 @@ decrement.addEventListener("click", () => {
 
     if (number < 0) {
         numberDisplay.style.color = "red"
-    }
+    } 
 })
 
 increment.addEventListener("click", () => {
@@ -24,4 +24,8 @@ increment.addEventListener("click", () => {
     number += num * 1
     numberDisplay.innerText = number
     // inputDisplay.innerText =""
+
+    if(number >= 0){
+        numberDisplay.style.color = "black"
+    }
 })
