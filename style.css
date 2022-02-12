@@ -1,0 +1,44 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#outputBox {
+    padding-top: 15rem;
+    font-size: 100px;
+    margin: 50px;
+}
+
+#add {
+    padding: 30px;
+    font-size: 50px;
+    color: white;
+    background-color: rgb(169, 169, 169);
+    border-radius: 5%;
+}
+
+#minus {
+    padding: 30px;
+    font-size: 50px;
+    color: white;
+    background-color: rgb(169, 169, 169);
+    border-radius: 5%;
+}
+
+#numberInput {
+    padding: 5px;
+    margin: 15px;
+    font-size: 3rem;
+    text-align: center;
+    border: 5px solid rgb(169, 169, 169);
+    border-radius: 5%;
+}
