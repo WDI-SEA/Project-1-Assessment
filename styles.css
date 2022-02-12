@@ -1,0 +1,26 @@
+*{
+    
+    font-size: 150%;
+}
+#output{
+    font-size: 200%;
+}
+
+.container{
+    padding: 10rem;
+    text-align: center;
+    margin: 6 auto;
+    border: 5rem;
+
+}
+.container2{
+    text-align: center;
+    margin: 6 auto;
+    padding: 0vh 4rem;
+  
+}
+
+.disp{
+    width: 10rem;
+}
+
