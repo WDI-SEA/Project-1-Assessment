@@ -26,7 +26,6 @@ let checkChange = () => {
 //   console.log(num)
 // })
 
-
 let display = () => {
   
   if(num < 0){
