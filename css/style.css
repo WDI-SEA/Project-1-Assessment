@@ -4,10 +4,28 @@
     font-size: 20vh;
 }
 
+.count-display {
+    padding: 10vh;
+}
+
 .add, .value, .subtract {
     font-size: 10vh;
+    border-radius: 1vw;
+    margin: .5vw;
+}
+
+.add, .subtract {
+    background-color: lightgrey;
+    color: white;
+    width: 10vw;
+}
+
+.value {
+    text-align: center;
+    width: 20vw;
 }
 
 .add:hover, .subtract:hover {
     background-color: white;
+    color: lightgrey;
 }

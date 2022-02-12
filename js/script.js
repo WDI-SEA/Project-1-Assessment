@@ -1,20 +1,24 @@
 let counterDisplayNumber = 0;
 
-let countDisplay = document.querySelector('.count-display').innerText
-// console.dir(countDisplay)
-let valueToCalculate = document.querySelector('.value').value
-
-
 const addValue = () => {
-    const total = counterDisplayNumber + valueToCalculate
+    const valueToCalculate = document.querySelector('.value').value
+    const total = counterDisplayNumber + Number(valueToCalculate)
     document.querySelector('.count-display').innerText = total
+    counterDisplayNumber = total
+    if (total >= 0) {
+        document.querySelector('.count-display').style.color = 'black'
+    }
 }
-
 
 const subtractValue = () => {
-    
+    const valueToCalculate = document.querySelector('.value').value
+    const total = counterDisplayNumber - Number(valueToCalculate)
+    document.querySelector('.count-display').innerText = total
+    counterDisplayNumber = total
+    if (total < 0) {
+        document.querySelector('.count-display').style.color = 'red'
+    }
 }
-
 
 const addButton = document.querySelector('.add').addEventListener('click', addValue)
 const subtractButton = document.querySelector('.subtract').addEventListener('click', subtractValue)
