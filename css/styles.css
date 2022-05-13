@@ -1,0 +1,13 @@
+body {
+    font-size: 5rem;
+}
+
+.calc {
+    display: flex;
+    justify-content: center;
+}
+
+.numb {
+    display: flex;
+    justify-content: center;
+}
