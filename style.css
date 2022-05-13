@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+button {
+    background-color: lightgrey;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 100px
+}
+
+.minus:hover, .plus:hover {
+    background-color: white;
+    color:lightgrey;
+    border: thin solid lightgrey;
+}
+.input {
+    height: 45px;
+    width : 120px;
+    border: thin solid lightgrey;
+}
