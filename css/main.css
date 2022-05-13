@@ -1,0 +1,29 @@
+
+/* .inline-group {
+    align-items: center;
+    max-width: 4rem;
+    padding: 1rem;
+    text-align: center;
+  } */
+  .btn-minus{
+     padding: 20px;
+     
+
+  }
+  .btn-plus{
+    padding: 20px;
+
+ }
+
+ .form-quantity {
+    display: absolute;
+    font-size: 1.5em;
+
+ }
+
+ section {
+	display: flex;  /* defaults to row layout */
+	justify-content: center;  /* centers items horizontally in row layout */
+	align-items: center;  /* centers vertically in row layout */
+	/* flex-direction: column; will set layout to column instead of row */
+}
