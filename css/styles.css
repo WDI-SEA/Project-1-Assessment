@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin-top: 150px;
+}
+
+.btns {
+  margin-top: 60px;
+}
+
+.displayNumber {
+  font-size: 60px;
+}
+
+button {
+  background-color: grey;
+  border: 1px solid grey;
+  border-radius: 5px;
+  color: white;
+  padding: 20px 30px;
+  font-size: 30px;
+}
+
+button:hover {
+  cursor: pointer;
+  color: grey;
+  background-color: white;
+}
+
+input {
+  padding: 18px 0;
+  border: 3px solid grey;
+  border-radius: 5px;
+  margin: 0 15px;
+  font-size: 30px;
+  text-align: center;
+  width: 100px;
+}
+
+.red {
+  color: red;
+}
