@@ -5,9 +5,6 @@ const display = document.querySelector("#display")
 
 let displayVal = 0
 
-
-
-
 document.addEventListener("DOMContentLoaded", function(){
     display.innerText = Number(displayVal) 
     plusBtn.addEventListener("click",addToDisplay)
